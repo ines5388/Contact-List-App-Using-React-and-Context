@@ -68,7 +68,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 				fetch(`https://playground.4geeks.com/contact/agendas/${contact.slug}/contacts/${contact.id}`, {
 					method: 'PUT',
 					body: JSON.stringify({
-						"name": contact.name,
+						"name": contact.fullName,
 						"phone": contact.phone,
 						"email": contact.email,
 						"address": contact.address

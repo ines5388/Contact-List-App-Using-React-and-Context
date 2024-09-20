@@ -1,17 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Form } from "../component/form.jsx";
+import { Link } from "react-router-dom";
 
-export const Demo = () => {
+export const AddContact = () => {
 	return (
 		<div className="container">
-			<Form agenda_slug={"ines"} />
+			<Form slug={"inesina"} />
 			<Link to="/">
 					<p>or get back to contacts</p>
 			</Link>
 		</div>
 	)
-};
-
-
-
+}

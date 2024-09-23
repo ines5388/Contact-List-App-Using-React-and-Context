@@ -24,7 +24,7 @@ export const ModalDelete = (props) => {
                         <p>If you delete this thing tne entire universe will go down!</p>
                     </div>
                     <div className="modal-footer">
-                        <button type="button" className="btn btn-primary">Oh no!</button>
+                        <button type="button" className="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Oh no!</button>
                         <button type="button" onClick={onDeleteClick}className="btn btn-secondary" data-bs-dismiss="modal">Yes baby!</button>
                     </div>
                     </div>
